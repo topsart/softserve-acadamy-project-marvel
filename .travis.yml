@@ -15,8 +15,8 @@ jobs:
   include:
     - stage: Lint-staged
       script: yarn lint-staged
-    # - stage: Test
-    #   script: yarn test
+    - stage: Test
+      script: yarn test
     - stage: Build
       script: yarn build
     - stage: Deploy
