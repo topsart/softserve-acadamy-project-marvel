@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/softserve-acadamy-project-marvel/static/css/main.e6c13ad2.css",
+    "main.js": "/softserve-acadamy-project-marvel/static/js/main.ea667d2e.js",
+    "index.html": "/softserve-acadamy-project-marvel/index.html",
+    "main.e6c13ad2.css.map": "/softserve-acadamy-project-marvel/static/css/main.e6c13ad2.css.map",
+    "main.ea667d2e.js.map": "/softserve-acadamy-project-marvel/static/js/main.ea667d2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ea667d2e.js"
+  ]
+}
