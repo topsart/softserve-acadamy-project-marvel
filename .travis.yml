@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - 16
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install
+
+jobs:
+  include:
+    - stage: Lint-staged
+      script: yarn lint-staged
+    # - stage: Test
+    #   script: yarn test
+    - stage: Build and Deploy
+      script: yarn deploy
